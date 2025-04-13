@@ -1,0 +1,20 @@
+Requisiti Necessari per l'Uso del Bot
+
+Ambiente di Esecuzione
+
+Python 3.7 o superiore: Assicurati di avere installato Python nella versione corretta.
+Librerie necessarie: Installare le librerie asyncio, random, string, e playwright utilizzando il comando pip install playwright.
+File di Configurazione
+
+proxy.txt: Un file contenente una lista di proxy, ognuno su una nuova riga, nel formato username:password@proxy_address.
+usern.txt: Un file contenente una lista di nomi utente disponibili, ognuno su una nuova riga.
+accounts.txt: Un file di output dove verranno salvati gli account registrati.
+Accesso a Internet
+
+Connessione a Internet stabile: Il bot richiede una connessione per accedere al sito web e completare le registrazioni.
+Browser Compatibile
+
+Installazione di un browser compatibile: Il bot utilizza Chromium tramite Playwright, quindi è necessario avere accesso a questo browser.
+Permessi di Scrittura
+
+Permessi per scrivere nei file: Assicurati che il bot abbia i permessi necessari per scrivere nei file accounts.txt e usern.txt.
