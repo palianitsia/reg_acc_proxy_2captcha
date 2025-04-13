@@ -18,3 +18,24 @@ Installazione di un browser compatibile: Il bot utilizza Chromium tramite Playwr
 Permessi di Scrittura
 
 Permessi per scrivere nei file: Assicurati che il bot abbia i permessi necessari per scrivere nei file accounts.txt e usern.txt.
+
+
+La lista di proxy deve essere strutturata in modo specifico per garantire che il bot possa utilizzarli correttamente. Ecco come deve apparire:
+
+Formato di ogni riga:
+username:password@proxy_address:port
+Esempi di righe valide:
+user1:pass1@192.168.1.1:8080
+user2:pass2@203.0.113.5:3128
+user3:pass3@10.0.0.2:1080
+Dettagli del Formato:
+
+username: Nome utente per l'autenticazione al proxy.
+password: Password per l'autenticazione al proxy.
+proxy_address: Indirizzo IP o nome host del server proxy.
+port: Porta attraverso la quale il proxy è accessibile.
+Note Importanti:
+
+Ogni proxy deve essere su una nuova riga.
+Assicurati che non ci siano spazi extra o caratteri non validi.
+Verifica che i proxy siano attivi e funzionanti prima di utilizzarli con il bot.
